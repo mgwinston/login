@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario|Gmail</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border-radius: 5px;
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        }
+        .box{
+            padding: 15px;
+            border-radius: 8px;
+            position: absolute;
+            top: 80%;
+             width: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.8)
+            
+        }
+        fieldset{
+            border: 3px solid dodgerblue;
+        }
+        legend{
+            border: 1px solid dodgerblue;
+            padding: 10px;
+            background-color: dodgerblue;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .inputbox{
+            position: relative;
+
+        }
+        .inputUser{
+            background: none;
+            border: none ;
+            border-bottom: 1px solid white;
+            color: white;
+            font-size: 15px;
+            
+            width: 100%;
+            letter-spacing: 2px;
+
+        }
+        #data-nacimento{
+            border-radius: 5px;
+            font-size: 17px;
+        }
+        button{
+            width: 100%;
+            font-size: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            background-color:dodgerblue;
+            color: white;
+        }
+        #submite{
+            color: white;
+            padding: 11px;
+            background-color:dodgerblue;
+            width: 100%; 
+            border-radius: 10px;
+            cursor: pointer;
+            
+        }
+        .may{
+            text-decoration: none;
+            
+
+        }
+    
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Prencha para adiquirir seu numero</b></legend> <br>
+                         <div class="imputBox">
+                             <input type="text" neme="name" id="name" class="inputUser" required>
+                             <label for="nome">Nome conpleto </label>
+                        </div> <br>
+                        <div class="imputBox">
+                            <input type="password" neme="Senha" id="Senha" class="inputUser" required>
+                            <label for="Senha" class="nada">Senha</label>
+                        </div>
+                          <br> 
+                         <div class="imputBox">
+                            <input type="email" neme="email" id="email" class="inputUser" required>
+                            <label for="email" >email </label>
+                        </div> 
+                        <br> 
+                        <p>Sexo:</p>
+                        <input type="radio" name=genero value="féminina" required>
+                        <label for="feminina">Masculino</label>
+                        <br><br>
+                        <input type="radio" name=genero value="féminino" required>
+                        <label for="feminino">Feminino</label>
+                        <br><br>
+                        <input type="radio" name=genero value="outros" required>
+                        <label for="feminina">outros</label>
+                        <br><br>
+                        <label for="data-nacimento"><b>Data de Nascimento</b></label>
+                        <input type="date" name=data-nacimento id="data-nacimento" required>
+                        <br> <br>
+                        <div class="imputBox">
+                             <input type="text" neme="cidade" id="cidade" class="inputUser" required>
+                             <label for="cidade">Cidade</label>
+                        </div> <br> 
+                        <br>
+                        <div class="imputBox">
+                            <input type="text" neme="enderesso" id="enderesso" class="inputUser" required>
+                            <label for="enderesso">Estado</label>
+                        </div>
+                        <br> 
+                        <br> 
+                        <div class="imputBox">
+                            <input type="text" neme="texto" id="texto" class="inputUser" required>
+                            <label for="texto">cpf</label>
+                        </div>
+                        <footer class="box2"><b>para qualquer duvida vá para o <a href="https://instagram.com/winston_dutra?utm_medium=copy_link">instagran</a> <b></footer>
+                        <br>
+                        <button class="may"><a href="seunumero.html">Emviar</a> </button>
+                   </div>            
+            </fieldset>
+        </form>
+    </div>
+
+    
+</body>
+</html>
